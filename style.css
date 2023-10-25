@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  margin: 0 auto;
+}
+/*---------------------------------------------------------- */
+/*---------------------------------------------------------- */
+/*---------------------------------------------------------- */
+
+/* -section hero */
+.hero {
+  height: 100vh;
+  display: flex;
+}
+
+.hero__img {
+  border-radius: 15px 0px 0px 15px;
+  background: #e5e5fb;
+  height: 100%;
+  max-height: 75rem;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  height: 100%;
+  max-height: 75rem;
+  width: 50%;
+  gap: 5rem;
+}
+
+.hero__img img {
+  width: 100%;
+  padding: 4rem;
+}
+
+.heading-primary {
+  color: #333;
+  font-weight: 500;
+  font-size: 5rem;
+  line-height: 1.2;
+  font-style: sans-serif;
+  margin: -5rem 4rem 1rem 4rem;
+}
+
+.hero__text p {
+  color: #555;
+  font-size: 1.8rem;
+  margin: -4rem 4rem -1.5rem;
+  line-height: 1.4;
+}
+
+.btn-hero {
+  background: #3f3f55;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  align-self: start;
+  margin: 0 4rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.btn-hero:hover {
+  background: #555;
+}
+
+/* -section nav */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 1.2rem 3rem;
+  position: relative;
+  box-shadow: 0px 1px 5px 0px #e5e5fb;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.nav-container {
+  width: 36%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  color: #555;
+  font-style: "inter";
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.logo {
+  height: 4.6rem;
+}
+
+.nav-buttons {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20%;
+  margin: 0 3rem;
+}
+
+.nav-btn-primary {
+  padding: 1.6vh 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #e5e5fb;
+  color: #333;
+  font-style: "inter";
+  font-weight: 500;
+  font-size: 1.6rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.nav-btn-secondary {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #555;
+}
+
+/* /* -section key benefits  */
+
+.section-benefits {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 9.6rem 3rem;
+}
+
+.section-title{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  margin-left: 2rem;
+}
+
+.section-benefits .section-title {
+  margin-bottom: 8%;
+}
+
+.section-title-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid #666;
+  font-size: 1.6rem;
+  flex-shrink: 1;
+  align-self: start;
+  padding: 1rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  color: #333;
+}
+
+.heading-secondary {
+  font-size: 5rem;
+  font-weight: 500;
+  color: #333;
+  
+}
+
+.section-benefits
+.section-title {
+  margin-left: 2rem;
+} 
+
+.benefits-container-cards {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.benefits-card {
+  height: 40rem;
+  max-height: 45rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 26%;
+  background: #fff;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  box-shadow: 0 0 4px 0 #888;
+  padding: 3.6rem;
+}
+
+.text-card {
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.benefits-card p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.benefits-card svg {
+  height: 7rem;
+  margin: 1rem 0 0 0;
+}
+
+.benefits-card h6 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #333;
+}
